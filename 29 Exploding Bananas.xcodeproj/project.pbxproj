@@ -9,25 +9,30 @@
 /* Begin PBXBuildFile section */
 		3AD9A0C92280192200F7DC13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD9A0C82280192200F7DC13 /* AppDelegate.swift */; };
 		3AD9A0CB2280192200F7DC13 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3AD9A0CA2280192200F7DC13 /* GameScene.sks */; };
-		3AD9A0CD2280192200F7DC13 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3AD9A0CC2280192200F7DC13 /* Actions.sks */; };
 		3AD9A0CF2280192200F7DC13 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD9A0CE2280192200F7DC13 /* GameScene.swift */; };
 		3AD9A0D12280192200F7DC13 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD9A0D02280192200F7DC13 /* GameViewController.swift */; };
 		3AD9A0D42280192200F7DC13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AD9A0D22280192200F7DC13 /* Main.storyboard */; };
 		3AD9A0D62280192300F7DC13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AD9A0D52280192300F7DC13 /* Assets.xcassets */; };
 		3AD9A0D92280192300F7DC13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AD9A0D72280192300F7DC13 /* LaunchScreen.storyboard */; };
+		3AD9A0E1228019CA00F7DC13 /* BuildingNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD9A0E0228019CA00F7DC13 /* BuildingNode.swift */; };
+		3AFDE30F22817D9F00145E78 /* hitPlayer.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3AFDE30D22817D9F00145E78 /* hitPlayer.sks */; };
+		3AFDE31022817D9F00145E78 /* hitBuilding.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3AFDE30E22817D9F00145E78 /* hitBuilding.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3ACEFDF02282CBC60034DCB0 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		3AD9A0C52280192200F7DC13 /* 29 Exploding Bananas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "29 Exploding Bananas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AD9A0C82280192200F7DC13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AD9A0CA2280192200F7DC13 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		3AD9A0CC2280192200F7DC13 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		3AD9A0CE2280192200F7DC13 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		3AD9A0D02280192200F7DC13 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		3AD9A0D32280192200F7DC13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3AD9A0D52280192300F7DC13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AD9A0D82280192300F7DC13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AD9A0DA2280192300F7DC13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AD9A0E0228019CA00F7DC13 /* BuildingNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingNode.swift; sourceTree = "<group>"; };
+		3AFDE30D22817D9F00145E78 /* hitPlayer.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = hitPlayer.sks; sourceTree = "<group>"; };
+		3AFDE30E22817D9F00145E78 /* hitBuilding.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = hitBuilding.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +49,7 @@
 		3AD9A0BC2280192200F7DC13 = {
 			isa = PBXGroup;
 			children = (
+				3ACEFDF02282CBC60034DCB0 /* Readme.md */,
 				3AD9A0C72280192200F7DC13 /* 29 Exploding Bananas */,
 				3AD9A0C62280192200F7DC13 /* Products */,
 			);
@@ -62,13 +68,15 @@
 			children = (
 				3AD9A0C82280192200F7DC13 /* AppDelegate.swift */,
 				3AD9A0CA2280192200F7DC13 /* GameScene.sks */,
-				3AD9A0CC2280192200F7DC13 /* Actions.sks */,
 				3AD9A0CE2280192200F7DC13 /* GameScene.swift */,
 				3AD9A0D02280192200F7DC13 /* GameViewController.swift */,
 				3AD9A0D22280192200F7DC13 /* Main.storyboard */,
 				3AD9A0D52280192300F7DC13 /* Assets.xcassets */,
+				3AD9A0E0228019CA00F7DC13 /* BuildingNode.swift */,
 				3AD9A0D72280192300F7DC13 /* LaunchScreen.storyboard */,
 				3AD9A0DA2280192300F7DC13 /* Info.plist */,
+				3AFDE30E22817D9F00145E78 /* hitBuilding.sks */,
+				3AFDE30D22817D9F00145E78 /* hitPlayer.sks */,
 			);
 			path = "29 Exploding Bananas";
 			sourceTree = "<group>";
@@ -133,9 +141,10 @@
 			files = (
 				3AD9A0D42280192200F7DC13 /* Main.storyboard in Resources */,
 				3AD9A0CB2280192200F7DC13 /* GameScene.sks in Resources */,
+				3AFDE30F22817D9F00145E78 /* hitPlayer.sks in Resources */,
 				3AD9A0D62280192300F7DC13 /* Assets.xcassets in Resources */,
 				3AD9A0D92280192300F7DC13 /* LaunchScreen.storyboard in Resources */,
-				3AD9A0CD2280192200F7DC13 /* Actions.sks in Resources */,
+				3AFDE31022817D9F00145E78 /* hitBuilding.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AD9A0CF2280192200F7DC13 /* GameScene.swift in Sources */,
+				3AD9A0E1228019CA00F7DC13 /* BuildingNode.swift in Sources */,
 				3AD9A0D12280192200F7DC13 /* GameViewController.swift in Sources */,
 				3AD9A0C92280192200F7DC13 /* AppDelegate.swift in Sources */,
 			);
